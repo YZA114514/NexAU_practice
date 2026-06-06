@@ -1,0 +1,27 @@
+# Secrets and local env
+.env
+.env.*
+*.key
+*.pem
+
+# Local datasets and generated runs
+CL-Bench-dataset/
+实训题目/
+runs/
+test_predictions_*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# uv/cache
+.uv-cache/
+
+# Large upstream checkout artifacts
+NexAU-main/.venv/
+NexAU-main/.pytest_cache/
