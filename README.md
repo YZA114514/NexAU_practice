@@ -8,10 +8,8 @@
 - `NexAU-main/examples/clbench_life/run_predictions.py`：生成 dev/test prediction JSONL 的主入口。
 - `NexAU-main/examples/clbench_life/judge_rubrics.py`：dev set 上的 LLM-as-judge 辅助评测脚本。
 - `tests/test_structured_solvers.py`：确定性工具、workflow、query planner gating、verifier 的离线回归测试。
-- `docs/experiment_log_2026-06-06.md`：主要实验记录。
 - `report.md`：本次 harness 设计、dev 分析、复现方式和风险说明。
 
-数据集、测试集、模型 key 和运行输出不应提交到 GitHub。
 
 ## 环境变量
 
@@ -30,8 +28,6 @@ $env:JUDGE_MODEL="openai/gpt-5.1"
 $env:JUDGE_BASE_URL="https://openrouter.ai/api/v1"
 $env:JUDGE_API_KEY="<your-openrouter-key>"
 ```
-
-请不要把 key 写入代码、日志、trace 或 README。
 
 ## 本地检查
 
